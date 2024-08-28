@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <app-title titleText="Título de la Página"></app-title>
+    <app-alertbutton buttonText="Página Uno" (click)="navigateToPaginaUno()"></app-alertbutton>
+    <app-alertbutton buttonText="Página Dos" (click)="navigateToPaginaDos()"></app-alertbutton>
+  </div>
+</ion-content>
